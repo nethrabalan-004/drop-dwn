@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        background-image: url("https://i.pinimg.com/originals/96/0f/1b/960f1bfc8fd5dca458ba83a32bbce2f0.gif");
+        background-size: 100%;
+        background-attachment: fixed;
+        
+    
+    }
+    .dropdown {
+      position: fixed;
+      display: flex;
+      justify-content: space-between;
+
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #ff0000a9;
+      min-width: 230px;
+      box-shadow: 5px 5px 10px rgb(218, 39, 39);
+      padding: 20px;
+      z-index: 1;
+      top: 30px;
+      text-align: center;
+      border-radius: 20px;
+   
+
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+      
+     
+    }
+    span
+    {
+        font-size: 20px;
+        font-family: cursive;
+        font-weight: bold;
+        color: azure;
+        text-shadow: 1px 1px 30px black;
+    }
+    span:hover
+    {
+        color:#ff0000 ;
+    }
+    .link
+    {|
+        font-size: 30px;
+        font-family: cursive;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-shadow: 1px 1px 30px rgb(255, 255, 255) ;
+    }
+    .link:hover
+    {
+        background-color: rgba(255, 230, 0, 0.614);
+        color: rgb(0, 0, 0);
+        width: auto;
+        padding: 10px;
+        border-radius: 20px;
+        border: 3px solid black;
+    }
+    nav
+    {
+        width: auto;
+        height: 60px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+       margin-top: -10px;
+       margin-left: -10px;
+       margin-right: -10px;
+       animation: rey 4s;
+        animation-iteration-count: infinite;
+       
+
+    }
+    
+    
+    .main
+    {
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        width: 1190px;
+        height: auto;
+        margin: auto;
+        position: relative;
+        right: 40px;
+        top: -15px;
+        gap: 20px;
+       
+       
+       
+       
+    }  
+    @keyframes rey {
+      25%{box-shadow: 5px 5px 25px rgb(255, 0, 0);}
+      50%{box-shadow: 5px 5px 25px rgb(4, 159, 255);}
+      75%{box-shadow: 5px 5px 25px rgb(255, 174, 0);}
+      100%{box-shadow: 5px 5px 35px rgb(85, 0, 255);}
+      
+    } 
+
+
+    .dropdowns {
+      position: fixed;
+  
+
+    }
+    
+    .dropdown-contents {
+      display: none;
+      position: absolute;
+      background-color: #ff0000ae;
+      min-width: 230px;
+      box-shadow: 5px 5px 10px rgb(218, 39, 39);
+      padding: 20px;
+      z-index: 1;
+      top: 30px;
+    right: 0px;
+      text-align: center;
+      border-radius: 20px;
+   
+
+    }
+    .dropdowns:hover .dropdown-contents {
+      display: block;
+      
+     
+    }
+  
+   
+    </style>
+<body>
+    <nav>
+   <main class="main">
+    <div>
+        <div class="dropdown">
+            <span>Dream travel Bikes</span>
+            <div class="dropdown-content">
+              <a href="" class="link">Royal Enfield Himalayan</a><br><br><br>
+              <a href="" class="link">Kawasaki Versys 650</a><br><br><br>
+              <a href="" class="link">KTM 390 Adventure</a><br><br><br>
+              <a href="" class="link">Honda Goldwing</a><br><br><br>
+            </div>
+        </div>
+    </div>
+    
+   
+
+    
+    <div>
+        <div class="dropdown">
+            <span>Foods to be tasted</span>
+            <div class="dropdown-content">
+              <a href="" class="link">Scotland: Smoked Salmon</a><br><br><br>
+              <a href="" class="link">Norway: Rakfisk</a><br><br><br>
+              <a href="" class="link">Canada: Poutine</a><br><br><br>
+              <a href="" class="link">Malaysia: Nasi Lemak</a><br>
+
+
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <div class="dropdown">
+            <span>Places to travel</span>
+            <div class="dropdown-content">
+              <a href="" class="link">Lapland, Finland</a><br><br><br>
+              <a href="" class="link">Lake Como, Italy</a><br><br><br>
+              <a href="" class="link">Bagan, Myanmar</a><br><br><br>
+              <a href="" class="link">Barcelona, Spain</a><br>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <div class="dropdown">
+            <span>Countries To Visit</span>
+            <div class="dropdown-content">
+              <a href="" class="link">Italy</a><br><br><br>
+              <a href="" class="link">France</a><br><br><br>
+              <a href="" class="link">Germany</a><br><br><br>
+              <a href="" class="link">Australia</a><br>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="dropdown">
+            <span>Dream Travel Car</span>
+            <div class="dropdown-content">
+              <a href="" class="link">Range Rover</a><br><br><br>
+              <a href="" class="link">Toyota Innova Crysta</a><br><br><br>
+              <a href="" class="link">THAR</a><br><br><br>
+              <a href="" class="link">Jeep Grand Cherokee</a><br>
+              
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <div class="dropdowns">
+            <span> Hotals</span>
+            <div class="dropdown-contents">
+              <a href="" class="link">Passalacqua,  Italy.</a><br><br><br>
+              <a href="" class="link">Upper House, Hong Kong.</a><br><br><br>
+              <a href="" class="link">Aman Tokyo, Japan.</a><br><br><br>
+              <a href="" class="link">Soneva Fushi, Maldives</a><br>
+
+            </div>
+        </div>
+    </div>
+    
+    
+
+        </main>
+    </nav>
+    
+</body>
+</html>
